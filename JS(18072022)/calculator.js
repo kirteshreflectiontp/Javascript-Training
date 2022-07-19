@@ -26,5 +26,5 @@ function clearscreen(){
      document.getElementById('number1').value = '';
      document.getElementById('number2').value ='' ;
     sum = '';
-    document.getElementById('result').innerHTML = sum
+    document.getElementById('result').innerHTML = sum;
 }

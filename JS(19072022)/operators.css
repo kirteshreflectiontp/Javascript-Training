@@ -1,0 +1,29 @@
+.block{
+    background-color: bisque;
+    width: 30%;
+}
+.ans{
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    width: 100%;
+    padding: 5px 0px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color:crimson;
+    color: white;
+    box-shadow: 0px 0px 5px 0px white inset;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 5px;
+    width: 100%;
+   
+}
+input{
+    padding: 5px 10px;
+    width: 44%
+}
