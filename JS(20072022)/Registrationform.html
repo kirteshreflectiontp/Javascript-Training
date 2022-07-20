@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form By JS</title>
+    <link rel="stylesheet" href="./Registrationform.css">
+    
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <div id="success"></div>
+            <div class="input">
+                <label>Name*</label><br>
+               <input type="text" id="name" placeholder="Enter your Name">
+               <div class="error" id="nameerror"></div>
+            </div>
+            <div class="input">
+                <label>Email*</label><br>
+               <input type="text" id="email" placeholder="Enter your Email">
+               <div class="error" id="emailerror"></div>
+            </div>
+            <div class="input">
+                <label>Birthdate*</label><br>
+               <input type="date" id="birthdate" placeholder="Enter your Birthdate">
+               <div class="error" id="birthdateerror"></div>
+            </div>
+            <div class="input">
+                <label>SSC Marks*</label><br>
+               <input type="number" id="sscmarks" placeholder="Enter your SSC Marks">
+               <div class="error" id="sscmarkserror"></div>
+            </div>
+            <div class="input">
+                <label>HSC Marks*</label><br>
+                <input type="number" id="hscmarks" placeholder="Enter your HSC Marks">
+                <div class="error" id="hscmarkserror"></div>
+            </div>
+            <div class="input">
+                <label>Course Name*</label><br>
+                <input type="text" id="course" placeholder="Enter your Course Name">
+                <div class="error" id="courseerror"></div>
+            </div>
+            <div class="input">
+                <label>University Name*</label><br>
+                <input type="text" id="university" placeholder="Enter your University "> 
+                <div class="error" id="universityerror"></div>
+            </div>
+            <div class="input">
+                <label>Branch*</label><br>
+                <input type="text" id="branch" placeholder="Enter your Branch">
+                <div class="error" id="brancherror"></div> 
+            </div>
+            <div class="input">
+                <label>Degree Aggregate*</label><br>
+                <input type="number" id="aggregate" placeholder="Enter your Aggregate">
+                <div class="error" id="aggregateerror"></div>
+            </div>
+            <div class="input">
+                <label>Resume*</label></div> <br>
+                <input type="file" id="resume" >
+                <div class="error" id="resumeerror"></div>
+                <button type="button" class="click" onclick = "registration()" >SUBMIT</button>
+            </div>
+           
+            <script src="./Registrationform.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
