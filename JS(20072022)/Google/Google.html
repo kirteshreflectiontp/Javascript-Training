@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="Google.css">
+</head>
+
+<body>
+    <div class="out-block">
+        <div class="left-box">
+            <div class="red" id="done"></div>
+            <div><img src="./google-logo.jpg" alt="logo" width="90"></div>
+            <div>
+                <h2>Creating your Google Account</h2>
+            </div>
+            <div>to continue to Gmail</div>
+            <div class="name">
+                <div><input id="firstname" type="text" placeholder="First name">
+                    <div class="red" id="firsterror"></div>
+                </div>
+                <div><input id="lastname" type="text" placeholder="Last name">
+                    <div class="red" id="seconderror"></div>
+                </div>
+            </div>
+            <div class="email">
+                <div><input id="email" class="username" type="email" placeholder="Username">
+                    <div class="red" id="thirderror"></div>
+                    <div class="comments">You can use letters,number & periods</div>
+                </div>
+            </div>
+            <div>
+                <div class="password">
+                    <div><input id="password" type="password" placeholder="Password"> <div class="red" id="fortherror"></div></div>
+                    <div><input id="confirm" type="password" placeholder="Confirm"> <div class="red" id="fiftherror"></div></div>
+                </div>
+                <div class="comments"> Use 8 more characters with a mix of letters, numbers & symbols</div>
+                <div class='checkbox'><span><input class="showpassword" type="checkbox"></span><span><label>Show
+                            Password</label></span></div>
+                <div class="response">
+                    <div><a href="Google.html">Sign in instead</a></div>
+                    <div><button type="button" onclick="submit()">Next</button></div>
+                </div>
+            </div>
+        </div>
+        <script src="./Google.js"></script>
+        <div class="right-box">
+            <div class="img-allign"><img src="./right-img.jpg" alt="img" width="200"> </div>
+            <div class="one-account">
+                One account.All of Google <br>
+                working for you.
+            </div>
+        </div>
+    </div>
+    <div class="bottom-box">
+        <div class="left-bottom">
+            <select name="language" id="">
+                <option value="English(United Kingdom)">English(United Kingdom)</option>
+            </select>
+        </div>
+        <div class="right-bottom">
+            <div class="links">Help</div>
+            <div class="links">Privacy</div>
+            <div class="links">Terms</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
