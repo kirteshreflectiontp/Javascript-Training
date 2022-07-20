@@ -27,7 +27,7 @@ function submit(){
     else if( password == ''){
         document.getElementById('fortherror').innerHTML = "Enter a Password";
     }
-    else if( password.lenght > 8){
+    else if( password.lenght < 8){
         document.getElementById('fortherror').innerHTML = "Use 8 characters or more";
     }
     else if( confirm ==''){
