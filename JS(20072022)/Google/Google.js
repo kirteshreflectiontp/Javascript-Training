@@ -40,7 +40,7 @@ function submit(){
         document.getElementById('password').style.border = "2px solid red";
         document.getElementById('info1').style.display = "none";
     }
-    else if( password.lenght < 8){
+    else if( password.length < 8){
         document.getElementById('fortherror').innerHTML = "Use 8 characters or more";
         document.getElementById('password').style.border = "2px solid red";
         document.getElementById('info1').style.display = "none";
