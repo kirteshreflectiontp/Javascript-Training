@@ -1,0 +1,134 @@
+body{
+    margin: 0% 10% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f5f9;
+}
+header{
+    max-width: 100%;
+}
+.header-1{
+    max-width: 100%;
+    display: flex;
+    background-color: #015172;
+    padding: 0px 0px 0px 20px;
+}
+.left-header,.right-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.right-header,.login-part{
+    justify-content: end;
+}
+.left-header-links,.right-header-links{
+    margin: 10px;
+    text-decoration: none;
+    color: white; 
+}
+.search{
+    font-style: italic;
+    padding: 10px ;
+    border: none;
+    width: 200px;
+    margin: 0px 0px 0px 15px;
+}
+.login-part{
+    background-color: #006792;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+.login-links{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 5px;
+}
+.header-2{
+    max-width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+.nav-bar{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 15px;
+}
+.nav-links{
+    color: #007fb9;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+main{
+    max-width: 100%;
+}
+.block-1{
+    width: 100%;
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+}
+.block-1-sub{
+    padding: 70px;
+}
+.block-1-part-1{
+    text-align: center;
+}
+.block-1-part-2{
+       display: flex;
+       width: 100%;
+       justify-content: space-around;
+       text-align: center;
+}
+.blue-ul{
+    color: #006792;
+    font-weight:bolder;
+    font-size: larger;
+    padding: 30px 0px 60px;
+}
+.caption{
+    padding: 15px;
+    font-size: 15px;
+    color: #007fb9;
+    text-decoration: none;
+}
+.block-2{
+    padding: 70px;
+    display: flex;
+    margin: 0px 80px 0px;
+}
+.block-3{
+    max-width: 100%;
+    display: flex;
+}
+.banner3{
+        width: 33.33%;
+}
+.description{
+    padding: 20px 50px 20px;
+}
+.read-more{
+    padding: 45px 0px 0px;
+    font-size: 14px;
+    color: #007fb9;
+    font-weight: bold;
+}
+.block-4{
+    background-color: white;
+
+}
+.que{
+    padding: 80px;
+    text-align: center;
+}
+
+.ans{
+    padding: 50px 0px 0px;
+    font-size:small;
+    font-weight: lighter;
+}
+
