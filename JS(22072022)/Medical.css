@@ -131,4 +131,151 @@ main{
     font-size:small;
     font-weight: lighter;
 }
+.block-4-sub-block-1{
+    max-width: 80%;
+    margin: 0% 10% 0%;
+}
+.percent-box{
+    display: flex;
+    text-align: center;
+    background-color: #f4f5f9;
+    
+}
+.percent-heading,.count-heading{
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blue-ul2{
+    color: #007fb9;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0px 0px 12px;
+
+}
+.percent-caption,.count-caption{
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.percent-sub-caption,.count-sub-caption{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.percent-sub-box{
+    padding: 25px 10px 0px 10px;
+    width: 25%;
+    border-right: 1px solid lightgrey;
+}
+.sub-sub-caption{
+    font-size: 8px;
+    font-weight: lighter;
+}
+.across{
+    font-weight: bold;
+    padding: 5px;
+}
+.count-box{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.count-sub-box{
+    padding: 15px 10px 0px 10px;
+    width: 30%;
+    background-color: #006792;
+}
+.button-block{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+.button-1{
+    color: white;
+    background-color: #006792;
+    padding: 15px 35px;
+    font-size: 17px;
+    border: none;
+    
+}
+.button-2{
+    color: #007fb9;
+    background-color: white;
+    padding: 15px 35px;
+    font-size: 17px;
+    border: none;
+}
+.contact-block{
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.contact-name{
+    color: #333333;
+    font-size: 14px;
+}
+.contact-no{
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact-b{
+    padding: 0px 20px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #333333;
+}
+.footer-block{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer-nav{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav-footer-links{
+    margin: 0px 15px;
+    font-size: 14px;
+}
+.social-icons{
+    margin: 3px;
+}
+.footer-heading{
+    font-size: 13px;
+    font-weight: bold;
+}
+.partners{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.partners-h{
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+.footer-adress{
+    font-size:12px;
+    padding: 3px;
+}
+.license{
+    font-size: 10px;
+    padding: 10px;
+    color: gray;
+}
+.partners-li{
+    font-size: 14px;
+    padding: 0px 10px;
+}
+.license-box{
+    padding: 10px;
+}
+   
+
 
