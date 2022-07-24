@@ -1,0 +1,200 @@
+main{
+    max-width: 100%;
+}
+.banner-text1{
+    position: absolute;
+    top: 354px;
+    left: 441px;
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+.banner-text2{
+    position: absolute;
+    top: 414px;
+    left: 526px;
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+}
+.button-start{
+    color: white;
+    background-color: #006792;
+    padding: 11px 26px;;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    top: 523px;
+    left: 44%;
+}
+
+.banner{
+    position: relative;
+}
+ 
+.block-1{
+    width: 100%;
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+}
+.block-1-sub{
+    padding: 70px;
+}
+.block-1-part-1{
+    text-align: center;
+}
+.block-1-part-2{
+       display: flex;
+       width: 100%;
+       justify-content: space-around;
+       text-align: center;
+}
+.blue-ul{
+    color: #006792;
+    font-weight:bolder;
+    font-size: larger;
+    padding: 30px 0px 60px;
+}
+.caption{
+    padding: 15px;
+    font-size: 15px;
+    color: #007fb9;
+    text-decoration: none;
+}
+.block-2{
+    padding: 70px;
+    display: flex;
+    margin: 0px 80px 0px;
+}
+
+.banner-button1,.banner-button2,.banner-button3{
+    background-color: #006792;
+    color: white;
+    font-size: medium;
+    border: none;
+   
+}
+.banner-button1{
+    position: absolute;
+    bottom: 62px;
+    left: 34px; 
+    padding: 10px 86px;
+}
+.banner-button2{
+    position: absolute;
+    bottom: 62px;
+    right: 438px; 
+    padding: 10px 67px;
+   
+}
+.banner-button3{
+    position: absolute;
+    bottom: 60px;
+    right: 31px; 
+    padding: 10px 101px;
+}
+.block-3{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.banner3{
+    width: 33.33%;
+}
+.description{
+    padding: 20px 50px 20px;
+}
+.read-more{
+    padding: 45px 0px 0px;
+    font-size: 14px;
+    color: #007fb9;
+    font-weight: bold;
+}
+.block-4{
+    background-color: white;
+
+}
+.que{
+    padding: 80px;
+    text-align: center;
+}
+
+.ans{
+    padding: 30px 0px 0px;
+    font-size:small;
+    font-weight: lighter;
+}
+.block-4-sub-block-1{
+    max-width: 80%;
+    margin: 0% 10% 0%;
+}
+.percent-box{
+    display: flex;
+    text-align: center;
+    background-color: #f4f5f9;
+    
+}
+.percent-heading,.count-heading{
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blue-ul2{
+    color: #007fb9;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0px 0px 12px;
+
+}
+.percent-caption,.count-caption{
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.percent-sub-caption,.count-sub-caption{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.percent-sub-box{
+    padding: 25px 10px 0px 10px;
+    width: 25%;
+    border-right: 1px solid lightgrey;
+}
+.sub-sub-caption{
+    font-size: 9px;
+    font-weight: lighter;
+}
+.across{
+    font-weight: bold;
+    padding: 5px;
+}
+.count-box{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.count-sub-box{
+    padding: 15px 10px 0px 10px;
+    width: 30%;
+    background-color: #006792;
+}
+.button-block{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+.button-1{
+    color: white;
+    background-color: #006792;
+    padding: 15px 35px;;
+    font-size: 17px;
+    border: none;
+    
+}
+.button-2{
+    color: #007fb9;
+    background-color: white;
+    padding: 15px 35px;
+    font-size: 17px;
+    border: none;
+}
