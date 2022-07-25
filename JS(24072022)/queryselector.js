@@ -1,6 +1,6 @@
 var lili1 = document.querySelectorAll('#li1 li');
 for(var a=0; a<lili1.length; a++){
-    if(lili1[a].innerHTML=='AAAA'){
+    if(lili1[a].innerHTML=='BBBB'){
         lili1[a].innerHTML=  lili1[a].innerHTML+'------KIRTESH';
     }
     else if(lili1[a].innerHTML=='IIII'){
