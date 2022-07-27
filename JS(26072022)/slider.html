@@ -8,22 +8,28 @@
     <style>
         .photos{
             display: none;
-            animation: sliding 2 sec;
-        }
-        @keyframes sliding{
-            0%{display: none;width: 0%;}
-            100%{display: block; width: 100%;}
+           height: 250px;
         }
         .photos:first-child{
             display: block;
         }
+        button{
+            padding: 10px 15px;
+            background-color:  #0d6efd;
+            color: white;
+            width: 150px;
+        }
+        button:hover{
+            background-color: red;
+        }
     </style>
 </head>
 <body>
-    <div id="imge"> </div>
-    <button onclick="back()">BACK</button>
-    <button onclick="next()">NEXT</button>
-    
+        <div>
+            <div id="imge"> </div>
+            <button onclick="back()">BACK</button>
+            <button onclick="next()">NEXT</button>
+        </div>
     <script src="./slider.js"></script>
 </body>
 </html>
