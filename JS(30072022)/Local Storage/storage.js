@@ -67,3 +67,18 @@ function submit(){
     }
     
 }
+function firstname(){
+    document.getElementById('firstname').style.border = "2px solid blue";
+}
+function lastname(){
+    document.getElementById('lastname').style.border = "2px solid blue";
+}
+function email(){
+    document.getElementById('email').style.border = "2px solid blue";
+}
+function password(){
+    document.getElementById('password').style.border = "2px solid blue";
+}
+function confirm(){
+    document.getElementById('confirm').style.border = "2px solid blue";
+}
