@@ -50,6 +50,11 @@ function submit(){
         document.getElementById('confirm').style.border = "2px solid red";
         document.getElementById('info1').style.display = "none";
     }
+    else if( password != confirm){
+        document.getElementById('fiftherror').innerHTML = "Password dose not match";
+        document.getElementById('confirm').style.border = "2px solid red";
+        document.getElementById('info1').style.display = "none";
+    }
     else{
         document.getElementById('done').innerHTML = "You have just created your Gmail account";
         var firstname = document.getElementById('firstname').value;

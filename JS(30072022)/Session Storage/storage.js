@@ -45,8 +45,13 @@ function submit(){
         document.getElementById('password').style.border = "2px solid red";
         document.getElementById('info1').style.display = "none";
     }
-    else if( confirm ==''){
+    else if(confirm == ''){
         document.getElementById('fiftherror').innerHTML = "Confirm Password";
+        document.getElementById('confirm').style.border = "2px solid red";
+        document.getElementById('info1').style.display = "none";
+    }
+    else if( password != confirm){
+        document.getElementById('fiftherror').innerHTML = "Password dose not match";
         document.getElementById('confirm').style.border = "2px solid red";
         document.getElementById('info1').style.display = "none";
     }
