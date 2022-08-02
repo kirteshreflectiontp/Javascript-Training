@@ -1,6 +1,6 @@
 
 
-alert('shgshg')
+alert('Click "OK" to Enter')
 $(document).ready(function(){
     $('.bronco,.truck,.mustang').click(function(){
         $('.show-bronco,.show-truck,.show-mustang').hide()
