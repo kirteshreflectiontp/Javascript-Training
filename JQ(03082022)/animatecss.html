@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation/CSS JQuery </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="animatecss.js"></script>
+    <style>
+        .navitem{
+            display:inline-block;
+            padding:5px 20px;
+            margin:5px 20px;
+            background-color:black;
+            color:red;
+            font-weight:bold;
+        }
+        .showitem{
+            height: 0;
+            overflow:hidden;
+        }
+    </style>
+     
+</head>
+<body>
+    <div class="navbar">
+        <div class="navitem">Home</div>
+        <div class="navitem">About</div>
+        <div class="navitem">Product</div>
+        <div class="navitem">Contact</div>
+        <div class="navitem">Policy</div>
+    </div>
+    <div class="show-navbar">
+        <div class="home showitem">
+            Home <br>
+            Home<br>
+            Home<br>
+            Home<br>
+        </div>
+        <div class="about showitem">
+            About<br>
+            About<br>
+            About<br>
+            About<br>
+        </div>
+        <div class=" product showitem">
+            Product<br>
+            Product<br>
+            Product<br>
+            Product<br>
+        </div>
+        <div class="contact showitem">
+            Contact<br>
+            Contact<br>
+            Contact<br>
+            Contact<br>
+        </div>
+        <div class="policy showitem">
+            Policy<br>
+            Policy<br>
+            Policy<br>
+            Policy<br>
+        </div>
+    </div>
+</body>
+</html>
