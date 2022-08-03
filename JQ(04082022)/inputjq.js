@@ -7,6 +7,6 @@ $(document).ready(function(){
         $(this).css({'background-color':'white'})
     })
     $('.input-text').blur(function(){
-        $(this).css({'background-color':'grey'})
+        $(this).css({'background-color':' greenyellow'})
     })
 })
