@@ -7,11 +7,12 @@ $(document).ready(function(){
 
         var showtext = $(this).html().toLowerCase();
 
-        $('showitem').css({height:'0',width:'0','background-color':'blue',color:'white'});
+        $('.showitem').css({height:'0',width:'0','background-color':'blue',color:'white'});
 
         $('.'+showtext).animate({height:'100px',width:'800px'},1000,function(){
 
         $('.'+showtext).css({'background-color':'green',color:"yellow",'font-weight':'bold'})
+
         })
     })
 })
