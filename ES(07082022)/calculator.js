@@ -1,64 +1,67 @@
 alert('Calculator')
-var  result='';
+var result = '';
 class calculator {
-    constructor(num1,num2,calculate){
-        this.num1 = num1;
-        this.num2 = num2;
-        this.calculate = calculate;
+    constructor() {
+        
     }
-    grabnum1(){
+    grabnum1() {
         return parseInt(document.getElementById('number1').value);
     }
-    grabnum2(){
+    grabnum2() {
         return parseInt(document.getElementById('number2').value);
     }
-   
-    maths(){
+
+    maths(num1, num2, calculate) {
         debugger
-        if(this.calculate == '+'){
-            result = (this.num1 + this.num2);
+        if (calculate == '+') {
+            result = (num1 + num2);
         }
-        else if(this.calculate == '-'){
-           result = (this.num1 - this.num2);
+        else if (calculate == '-') {
+            result = (num1 - num2);
         }
-        else if(this.calculate == '/'){
-            result = (this.num1 / this.num2);
+        else if (calculate == '/') {
+            result = (num1 / num2);
         }
-        else if(this.calculate == '*'){
-            result = (this.num1 * this.num2);
+        else if (calculate == '*') {
+            result = (num1 * num2);
         }
         document.getElementById('result').innerHTML = result;
 
     }
 }
-function addition(){
-    let getnumber = new calculator()
-    var int1 = getnumber.grabnum1();
-    var int2 = getnumber.grabnum2();
-    let add = new calculator(int1,int2,'+');
-    add.maths()
+class mathematics extends calculator {
+    constructor() {
+        super();
+
+    }
+    addition() {
+        var int1 = this.grabnum1();
+        var int2 = this.grabnum2();
+        this.maths(int1,int2,'+');
+    }
+    substraction() {
+        var int1 = this.grabnum1();
+        var int2 = this.grabnum2();
+        this.maths(int1,int2,'-');
+    }
+    division() {
+        var int1 = this.grabnum1();
+        var int2 = this.grabnum2();
+        this.maths(int1,int2,'/');
+    }
+    multiplication(){
+        var int1 = this.grabnum1();
+        var int2 = this.grabnum2();
+        this.maths(int1,int2,'*');
+    }
 }
-function substraction(){
-    let getnumber = new calculator()
-    var int1 = getnumber.grabnum1();
-    var int2 = getnumber.grabnum2();
-    let substract = new calculator(int1,int2,'-');
-    substract.maths()
-}
-function division(){
-    let getnumber = new calculator()
-    var int1 = getnumber.grabnum1();
-    var int2 = getnumber.grabnum2();
-    let divide = new calculator(int1,int2,'/');
-    divide.maths()
-}
-function multiplication(){
-    let getnumber = new calculator()
-    var int1 = getnumber.grabnum1();
-    var int2 = getnumber.grabnum2();
-    let multiply = new calculator(int1,int2,'*');
-    multiply.maths()
-}
+let calci = new mathematics();
+
+
+
+
+
+
 
 
 
