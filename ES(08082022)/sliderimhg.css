@@ -1,0 +1,23 @@
+
+.slide{
+    background-color: aquamarine;
+    height: 400px;
+    text-align: center;
+    font-size: 100px;
+ }
+ .buttons{
+   padding: 30px 30%;
+ }
+ button{
+    color: white;
+    background-color: blue;
+    padding: 15px 25px;
+    border: none;
+    margin: 50px 20px;
+    font-size: x-large;
+ }
+ button:hover{
+    background-color: red;
+    border: 1px blue;
+   font-weight: bold;
+ }
