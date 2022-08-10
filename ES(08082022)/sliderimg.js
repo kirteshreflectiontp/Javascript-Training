@@ -3,26 +3,30 @@ class slider{
         this.slides = [
             {
                 name:'slide1',
-                image:'./city'
+                image:'city.jpg'
             },
             {
                 name:'slide2',
-                image:'./sea.jpg'
+                image:'sea.jpg'
             },
             {
                 name:'slide3',
-                image:'./sweden.jpg'
+                image:'sweden.jpg'
             },
             {
                 name:'slide4',
-                image:'/heaven.jpg'
+                image:'heaven.jpg'
+            },
+            {
+                name:'slide4',
+                image:'lights.jpg'
             },
         ];
         this.currentSlide = this.slides[0];
         this.currentSlideIndex = 0;
     }
     renderSlides(){
-        let slide ='<div class="slide">'+this.currentSlide.name+'</div>';
+        let slide ='<img class="slide" src="'+this.currentSlide.image+'"/>'
         $('.slider').html(slide)
     }
     autoslide(){
@@ -38,7 +42,7 @@ class slider{
                 change.currentSlide = change.slides[0];
                 change.renderSlides();
             }
-        },5000)
+        },2000)
     }
     back(){
         if(this.currentSlideIndex > 0){
