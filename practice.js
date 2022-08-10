@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $('.input-text').keyup(function(){
+    $('.writeText').keyup(function(){
         var text = $(this).val();
-        $('.show-input-text').html(text);
+        $('.showText').html(text);
     })
-    $('.input-text').focus(function(){
-        $(this).css({'background-color':'white'})
+    $('.writeText').focus(function(){
+        $(this).css({'background-color':'aquamarine'})
     })
-    $('.input-text').blur(function(){
-        $(this).css({'background-color':' greenyellow'})
+    $('.writeText').blur(function(){
+        $(this).css({'background-color':'pink'})
     })
 })
