@@ -1,11 +1,11 @@
 
   .box1 {
-    background: url("./Image1.png");
+    background: url("./img1.jpg");
     background-size: cover;
     background-position:  center;
   }
   .box2 {
-    background: url("./Image2.png");
+    background: url("./img2.jpg");
     background-size: cover;
     background-position:  center;
   }
@@ -36,13 +36,13 @@
     z-index: 2;
   }
   .slider [class*="box"]:nth-child(1) {
-    left: -13%;
+    left: -19%;
   }
   .slider [class*="box"]:nth-child(2) {
     left: 20%;
   }
   .slider [class*="box"]:nth-child(3) {
-    left: 32%;
+    left: 39%;
   }
  
   .slider .firstSlide {
