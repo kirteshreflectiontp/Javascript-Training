@@ -9,4 +9,4 @@ $(document).ready(function(){
     $('.writeText').blur(function(){
         $(this).css({'background-color':'pink'})
     })
-})
+});
