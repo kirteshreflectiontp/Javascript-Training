@@ -1,4 +1,3 @@
-
 var photos = ['image.png','image2.png','image3.png','footer.png'];
 var pics = '';
 for(var a = 0; a < photos.length ;a++){
