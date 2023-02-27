@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Project</title>
+    <link href = "Index.css" rel="stylesheet"/>
+   
+</head>
+<body>
+    <div><canvas id="ProductImg" width="500" height="500"></canvas></div>
+    <div>
+        <input type="text" id="fontSize" value="30"/>
+        <input type="text" id="fontColor" value="red"/>
+        <button onclick="applyCanvas()">Apply</button>
+    </div>
+   
+    <script>
+        function applyCanvas(){
+            var fontColor = document.getElementById('fontColor').value;
+            var fontSize = document.getElementById('fontSize').value;
+        fontSize = fontSize == '' ? '30px':parseInt(fontSize);
+        fontColor = fontColor == '' ? 'red':fontColor;
+        console.log(fontSize)
+        var ProductImg = document.getElementById('ProductImg');
+        var ProductContext = ProductImg.getContext('2d');
+        console.log(ProductContext);
+
+        //line
+        ProductContext.moveTo(10,10);
+        ProductContext.lineTo(490,10);
+        ProductContext.stroke();
+
+        ProductContext.moveTo(490,490);
+        ProductContext.lineTo(490,10);
+        ProductContext.stroke();
+
+        ProductContext.moveTo(490,490);
+        ProductContext.lineTo(10,490);
+        ProductContext.stroke();
+        
+        ProductContext.moveTo(10,10);
+        ProductContext.lineTo(10,490);
+        ProductContext.stroke();
+
+        //image
+        var Productbg = new Image();
+        Productbg.src = "productimg.png";
+        Productbg.onload = function(){
+            ProductContext.drawImage(Productbg,25,25,450,450);
+
+        //Rectangle
+        ProductContext.strokeRect(175,270,150,150);
+        //text
+        ProductContext.font = fontSize+'px arial';
+        ProductContext.fillText('Kritesh',200,380,);
+        ProductContext.strokeText('Kritesh',200,330);
+        ProductContext.strokeStyle =fontColor;
+        
+        //gradientbox
+        var gradient = ProductContext.createLinearGradient(0,0,600,0);
+        gradient.addColorStop(0,'red');
+        gradient.addColorStop(1,'yellow');
+        ProductContext.fillStyle = gradient;
+        ProductContext.fillRect(175,135,150,100);
+       
+        }   
+        }
+        
+    </script>
+</body>
+</html>
